@@ -1,0 +1,9 @@
+.place {
+  margin: 0 auto;
+  block-size: auto;
+  min-height: 100100%;
+  height: 100%;
+  box-sizing: content-box;
+  /* min-height: 660px; */
+  /* overflow: ; todo*/
+}
