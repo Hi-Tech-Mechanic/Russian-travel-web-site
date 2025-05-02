@@ -10,7 +10,7 @@
 
   color: #ffffff;
 
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     margin-top: 34px;
   }
 }

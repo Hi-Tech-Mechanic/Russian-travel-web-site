@@ -14,7 +14,7 @@
 
   color: #ffffff;
 
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 288px;
     height: 40px;
     margin-top: 16px;
