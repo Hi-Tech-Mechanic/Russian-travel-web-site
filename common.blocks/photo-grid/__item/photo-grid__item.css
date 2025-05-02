@@ -1,4 +1,19 @@
-.photo-grid__item{
+.photo-grid__item {
   width: 284px;
   height: 213px;
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    width: 300px;
+    height: 225px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 352px;
+    height: 264px;
+  }
+
+  @media (max-width: 768px) {
+    width: 288px;
+    height: 216px;
+  }
 }

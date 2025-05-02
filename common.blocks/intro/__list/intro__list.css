@@ -1,13 +1,16 @@
 .intro__list {
-  margin-top: 282px;
   height: 90px;
+  margin-top: 33px;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
 
   color: #ffffff;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-top: 34px;
+  }
 }

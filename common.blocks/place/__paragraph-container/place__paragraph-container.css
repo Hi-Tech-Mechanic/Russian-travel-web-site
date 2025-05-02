@@ -1,0 +1,12 @@
+.place__paragraph-container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  @media (max-width: 768px) {
+    margin-top: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

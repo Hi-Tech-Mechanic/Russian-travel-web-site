@@ -1,7 +1,27 @@
 .places {
   display: flex;
-  margin: 0 auto;
   margin-top: 92px;
+  margin-left: 148px;
+  margin-right: 148px;
   flex-direction: column;
   gap: 80px;
+
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+    gap: 72px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 64px;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
 }

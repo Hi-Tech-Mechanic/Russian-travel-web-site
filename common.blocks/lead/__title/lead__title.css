@@ -2,15 +2,21 @@
   width: 720px;
   height: 200px;
   margin: 0 auto;
-  
+
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  /* or 104% */
   letter-spacing: 1px;
   text-align: center;
 
   color: #ffffff;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 288px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

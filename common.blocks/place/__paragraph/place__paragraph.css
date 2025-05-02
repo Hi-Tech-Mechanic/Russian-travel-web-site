@@ -1,15 +1,14 @@
 .place__paragraph {
-  width: 484px;
-  margin-left: 500px;
-  margin-bottom: 24px;
-  
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  /* or 29px */
-  letter-spacing: 0.2px;
+  flex-grow: 1;
 
   color: #ffffff;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
 }
